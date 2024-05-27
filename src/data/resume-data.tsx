@@ -21,8 +21,8 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Ann Bridge",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
+  initials: "AB",
+  location: "Pittsburgh, PA",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
     "Full Stack Engineer focused on building products with extra attention to detail",
