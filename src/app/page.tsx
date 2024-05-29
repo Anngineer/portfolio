@@ -113,9 +113,21 @@ export default function Page() {
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="mt-2">{education.degree}</CardContent>
-                <CardContent className="mt-2 text-xs">
+
+                <div className="flex items-center justify-between  text-base">
+                  <CardContent className="mt-2 text-gray-800">
+                    {education.degree}
+                  </CardContent>
+                  <div className="text-sm tabular-nums text-gray-500">
+                    GPA: {education.gpa}
+                  </div>
+                </div>
+
+                <CardContent className="mt-1 text-sm">
                   {education.description}
+                </CardContent>
+                <CardContent className="mt-0 text-sm">
+                  Relevant Coursework: {education.courses}
                 </CardContent>
               </Card>
             );
@@ -161,7 +173,7 @@ export default function Page() {
             );
           })}
         </Section>
-        
+
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">

@@ -52,11 +52,14 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
-      description: "education description",
+      school: "Community College of Allegheny County",
+      degree: "Associate's Degree of Computer Information Systems",
+      start: "2023",
+      end: "Expected Dec 2024",
+      description:
+        "Phi Theta Kappa Honor Society member, Mu Alpha Theta Math Honor Society Member",
+      gpa: "4.0",
+      courses: "Relevant courses",
     },
   ],
   work: [
