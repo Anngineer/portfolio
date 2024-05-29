@@ -133,6 +133,8 @@ export default function Page() {
             );
           })}
         </Section>
+        {/* 
+        // Hidden work section
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
@@ -173,6 +175,7 @@ export default function Page() {
             );
           })}
         </Section>
+        */}
         <Section>
           <h2 className="text-xl font-bold">Published Research</h2>
           {RESUME_DATA.published.map((published) => {
