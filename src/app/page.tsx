@@ -189,7 +189,7 @@ export default function Page() {
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
                   {published.authors}, <i>{published.name}</i>,{" "}
-                  {published.journal}, DOI: {published.doi}. {published.year}
+                  {published.journal}, DOI: {published.doi}.
                 </CardContent>
               </Card>
             );
