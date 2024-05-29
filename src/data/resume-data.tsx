@@ -22,8 +22,8 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Ann Bridge",
   initials: "AB",
-  location: "Pittsburgh, PA",
-  locationLink: "https://www.google.com/maps/place/Pittsburgh",
+  location: "Pennsylvania",
+  locationLink: "https://www.google.com/maps/place/Pennsylvania",
   about: "Software Developer",
   summary:
     "Motivated software developer with background in mechanical engineering research. Brings experience in technical writing, accessibility, and proven communication strengths in addition to programming skills.",
