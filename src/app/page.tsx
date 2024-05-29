@@ -173,6 +173,46 @@ export default function Page() {
             );
           })}
         </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Published Research</h2>
+          {RESUME_DATA.published.map((published) => {
+            return (
+              <Card key={published.company}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                      <a className="hover:underline" href={published.link}>
+                        {published.company}
+                      </a>
+
+                      <span className="inline-flex gap-x-1">
+                        {published.badges.map((badge) => (
+                          <Badge
+                            variant="secondary"
+                            className="align-middle text-xs"
+                            key={badge}
+                          >
+                            {badge}
+                          </Badge>
+                        ))}
+                      </span>
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {published.start} - {published.end}
+                    </div>
+                  </div>
+
+                  <h4 className="font-mono text-sm leading-none">
+                    {published.title}
+                  </h4>
+                </CardHeader>
+                <CardContent className="mt-2 text-xs">
+                  {published.description}
+                </CardContent>
+              </Card>
+            );
+          })}
+        </Section>
 
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>

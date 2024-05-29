@@ -81,7 +81,7 @@ export const RESUME_DATA = {
       courses: "Relevant courses",
     },
   ],
-  work: [
+  published: [
     {
       company: "Parabol",
       link: "https://parabol.co",
@@ -90,9 +90,10 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       start: "2021",
       end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      description: "Implemented new features, led squad, worked on improving",
     },
+  ],
+  work: [
     {
       company: "Parabol",
       link: "https://parabol.co",
