@@ -83,14 +83,13 @@ export const RESUME_DATA = {
   ],
   published: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [""],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description: "Implemented new features, led squad, worked on improving",
+      name: "Comparing the Performance of Ultralight Folding Manual Wheelchairs Using Standardized Tests",
+      link: "https://pubmed.ncbi.nlm.nih.gov/32338550/",
+      authors:
+        "Benjamin Gebrosky, Ann Bridge, Shawn O’Donnell, Garrett G. Grindle, Rosemarie Cooper & Rory A. Cooper",
+      journal:
+        "Disability and Rehabilitation: Assistive Technology. 2022 Jan; 17:1, 40-49",
+      doi: "10.1080/17483107.2020.1754928",
     },
   ],
   work: [
