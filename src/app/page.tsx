@@ -115,7 +115,7 @@ export default function Page() {
                 </CardHeader>
 
                 <div className="flex items-center justify-between  text-base">
-                  <CardContent className="mt-2 text-gray-800">
+                  <CardContent className="mt-1 text-gray-800">
                     {education.degree}
                   </CardContent>
                   <div className="text-sm tabular-nums text-gray-500">
@@ -123,10 +123,10 @@ export default function Page() {
                   </div>
                 </div>
 
-                <CardContent className="mt-1 text-sm">
+                <CardContent className="mt-1 text-xs">
                   {education.description}
                 </CardContent>
-                <CardContent className="mt-0 text-sm">
+                <CardContent className="mt-0 text-xs">
                   Relevant Coursework: {education.courses}
                 </CardContent>
               </Card>
