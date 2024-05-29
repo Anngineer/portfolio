@@ -57,9 +57,10 @@ export const RESUME_DATA = {
       start: "2023",
       end: "Expected Dec 2024",
       description:
-        "Phi Theta Kappa Honor Society member, Mu Alpha Theta Math Honor Society Member",
+        "Honors Student, Phi Theta Kappa Honor Society, Mu Alpha Theta Math Honor Society, GetWITit Women in Technology",
       gpa: "4.0",
-      courses: "Relevant courses",
+      courses:
+        "Data Structures and Algorithms C++, Database Systems, Object Oriented Programming 1 Java, Intro to Programming Java, Information Technology Fundamentals",
     },
     {
       school: "Youngstown State University",
@@ -69,7 +70,8 @@ export const RESUME_DATA = {
       description:
         "Youngstown State University Society of Women Engineers, Youngstown State University ASME, Literary Arts Association",
       gpa: "3.81",
-      courses: "Relevant courses",
+      courses:
+        "Calculus 3, Fluid Dynamics, Thermodynamics 1, Heat Transfer 1, Kinematics of Machines, Strength of Materials",
     },
     {
       school: "Washington University in St. Louis",
@@ -78,7 +80,8 @@ export const RESUME_DATA = {
       end: "2013",
       description: "Engineering Without Borders",
       gpa: "3.50",
-      courses: "Relevant courses",
+      courses:
+        "Probability and Statistics for Engineering, Engineering & Scientific Computing, Calc 1 & 2, Intro to Electrical and Electronic Circuits, Engineering Mechanics I & II, Physics I & II ",
     },
   ],
   published: [
