@@ -252,7 +252,7 @@ export default function Page() {
             return (
               <Card key={blog.title}>
                 <CardHeader>
-                  <div className="mt-2 flex items-center justify-between gap-x-2 text-base">
+                  <div className="mt-4 flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       <a className="hover:underline" href={blog.link}>
                         {blog.title}

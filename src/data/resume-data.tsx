@@ -18,7 +18,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Pennsylvania",
   about: "Software Developer",
   summary:
-    "Motivated software developer with background in mechanical engineering research. Brings experience in technical writing, accessibility, and proven communication strengths in addition to programming skills.",
+    "A software developer with background in mechanical engineering research, I am enthusiastic about interdisciplinary design and problem solving.  I bring experience in technical writing, accessibility, and I thoroughly enjoy working with a team where I can help others achieve their goals.",
   avatarUrl: "https://avatars.githubusercontent.com/u/65789253?v=4",
   personalWebsiteUrl: "https://vercel.com/anngineers-projects/portfolio",
   personalBlogUrl: "https://www.linkedin.com/in/anngineer/",
@@ -56,8 +56,8 @@ export const RESUME_DATA = {
       degree: "Mechanical Engineering Courses",
       start: "2013",
       end: "2016",
-      description:
-        "Youngstown State University Society of Women Engineers, Youngstown State University ASME, Literary Arts Association",
+      description: "Society of Women Engineers, Literary Arts Association",
+
       gpa: "3.81",
       courses:
         "Calculus 3, Fluid Dynamics, Thermodynamics, Heat Transfer, Kinematics of Machines, Strength of Materials",
@@ -166,7 +166,7 @@ export const RESUME_DATA = {
         "JavaScript",
       ],
       description:
-        "Compilation of my front end projects with details about their design process",
+        "Compilation of my front end projects with visual previews and details of their design process",
       link: {
         label: "web dev portfolio",
         href: "https://anngineer.github.io/web-dev-portfolio/",
