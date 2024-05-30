@@ -49,7 +49,7 @@ export const RESUME_DATA = {
         "Honors Student, Phi Theta Kappa Honor Society, Mu Alpha Theta Math Honor Society, GetWITit Women in Technology",
       gpa: "4.0",
       courses:
-        "Data Structures and Algorithms C++, Database Systems, Object Oriented Programming 1 Java, Intro to Programming Java, Information Technology Fundamentals",
+        "Data Structures & Algorithms C++, Database Systems, Object Oriented Programming 1 Java, Intro to Programming Java, Information Technology Fundamentals",
     },
     {
       school: "Youngstown State University",
@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       description: "Engineers Without Borders",
       gpa: "3.50",
       courses:
-        "Probability and Statistics for Engineering, Engineering & Scientific Computing, Calc 1 & 2, Intro to Electrical and Electronic Circuits, Engineering Mechanics I & II, Physics I & II ",
+        "Probability & Statistics for Engineering, Engineering & Scientific Computing, Calc 1& 2, Intro to Electrical & Electronic Circuits, Engineering Mechanics I & II, Physics I & II ",
     },
   ],
   published: [
