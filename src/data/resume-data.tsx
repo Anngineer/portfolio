@@ -60,7 +60,7 @@ export const RESUME_DATA = {
         "Youngstown State University Society of Women Engineers, Youngstown State University ASME, Literary Arts Association",
       gpa: "3.81",
       courses:
-        "Calculus 3, Fluid Dynamics, Thermodynamics 1, Heat Transfer 1, Kinematics of Machines, Strength of Materials",
+        "Calculus 3, Fluid Dynamics, Thermodynamics, Heat Transfer, Kinematics of Machines, Strength of Materials",
     },
     {
       school: "Washington University in St. Louis",
@@ -143,7 +143,7 @@ export const RESUME_DATA = {
         "CSS/SCSS",
       ],
       description:
-        "Compilation of my front end projects with details about the process",
+        "Compilation of my front end projects with details about their process",
       link: {
         label: "monito.dev",
         href: "https://monito.dev/",
@@ -163,7 +163,7 @@ export const RESUME_DATA = {
         "CSS/SCSS",
       ],
       description:
-        "Role playing game character builder guide using the D&D 5th Edition API",
+        "Role playing game character builder using the D&D 5th Edition API",
       link: {
         label: "monito.dev",
         href: "https://monito.dev/",
@@ -190,9 +190,17 @@ export const RESUME_DATA = {
     },
     {
       title: "Interactive Journal",
-      techStack: ["Front End Project", "Next.js", "Puppeteer"],
+      techStack: [
+        "Front End Project",
+        "JavaScript",
+        "Semantic UI",
+        "RegExp",
+        "Audio",
+        "HTML",
+        "CSS/SCSS",
+      ],
       description:
-        "Mindfulness-focused journaling or messaging application to record thoughts",
+        "Aesthetic mindfulness-focused journaling or messaging application to record thoughts",
       link: {
         label: "useminimal.com",
         href: "https://useminimal.com/",
@@ -200,9 +208,16 @@ export const RESUME_DATA = {
     },
     {
       title: "To Do Dog",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      techStack: [
+        "Front End Project",
+        "Animated Sprites",
+        "Local Storage",
+        "JavaScript",
+        "HMTL",
+        "CSS/SCSS",
+      ],
       description:
-        "Animated dog responds to usage of to-do list that is saved locally on browser",
+        "Animated dog responding to use of to-do list that is saved locally on browser",
       link: {
         label: "barepapers.com",
         href: "https://barepapers.com/",
@@ -210,7 +225,16 @@ export const RESUME_DATA = {
     },
     {
       title: "Blog Template",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
+      techStack: [
+        "Front End Project",
+        "React",
+        "React Router Dom v6",
+        "Semantic UI",
+        "JSX",
+        "JavaScript",
+        "HTML",
+        "CSS/SCSS",
+      ],
       description: "Light and dark themed front end blog template",
       link: {
         label: "getyearprogress.com",
