@@ -107,6 +107,32 @@ export const RESUME_DATA = {
         "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     },
   ],
+  blog: [
+    {
+      link: "https://parabol.co",
+
+      title: "Blog Post 1",
+      date: "date 2",
+      description:
+        "Implemented new features, led squad, worked on improving the way developers ship the code.",
+      excerpt:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
+      tag: ["tag1", "tag2", "tag3", "tag4"],
+    },
+    {
+      link: "https://parabol.co",
+
+      title: "Blog Post 2",
+      date: "date 2",
+      description:
+        "Implemented new features, led squad, worked on improving the way developers ship the code.",
+      excerpt:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
+
+      tag: ["tag1", "tag2", "tag3", "tag4"],
+    },
+  ],
+
   skills: [
     "Java",
     "C++",

@@ -245,6 +245,60 @@ export default function Page() {
             })}
           </div>
         </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">Recent Blog Posts</h2>
+          {RESUME_DATA.blog.map((blog) => {
+            return (
+              <Card key={blog.title}>
+                <CardHeader>
+                  <div className="mt-2 flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                      <a className="hover:underline" href={blog.link}>
+                        {blog.title}
+                      </a>
+
+                      {/* <span className="inline-flex gap-x-1">
+                        {blog.tag.map((tag) => (
+                          <Badge
+                            variant="secondary"
+                            className="align-middle text-xs"
+                            key={tag}
+                          >
+                            {tag}
+                          </Badge>
+                        ))}
+                      </span> */}
+                    </h3>
+                    <div className="text-xs tabular-nums text-gray-500">
+                      Date: {blog.date}
+                    </div>
+                  </div>
+
+                  {/* <h4 className="font-mono text-sm leading-none">
+                    {blog.title}
+                  </h4> */}
+                </CardHeader>
+                <CardContent className="mt-2 text-sm text-gray-800">
+                  {blog.description}
+                </CardContent>
+                <CardContent className="mt-0 text-xs">
+                  {blog.excerpt}
+                </CardContent>
+
+                <div className="mt-2 flex flex-wrap gap-1">
+                  {blog.tag.map((tag) => {
+                    return (
+                      <Badge variant="secondary" key={tag}>
+                        {tag}
+                      </Badge>
+                    );
+                  })}
+                </div>
+              </Card>
+            );
+          })}
+        </Section>
       </section>
 
       <CommandMenu
