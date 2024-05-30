@@ -126,8 +126,8 @@ export const RESUME_DATA = {
       description:
         "An educational tech blog about my studies and personal projects",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "anngineerblog.com",
+        href: "https://anngineer.github.io/writing-blog/",
       },
     },
     {
@@ -135,18 +135,15 @@ export const RESUME_DATA = {
       techStack: [
         "Front End Project",
         "React",
-        "React Router Dom v5",
         "Semantic UI",
         "JSX",
         "JavaScript",
-        "HTML",
-        "CSS/SCSS",
       ],
       description:
-        "Compilation of my front end projects with details about their process",
+        "Compilation of my front end projects with details about their design process",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "web dev portfolio",
+        href: "https://anngineer.github.io/web-dev-portfolio/",
       },
     },
     {
@@ -154,19 +151,15 @@ export const RESUME_DATA = {
       techStack: [
         "Front End Project",
         "React",
-        "React Router Dom v5",
-        "Axios",
         "Semantic UI",
         "JSX",
         "JavaScript",
-        "HTML",
-        "CSS/SCSS",
       ],
       description:
         "Role playing game character builder using the D&D 5th Edition API",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "character creator",
+        href: "https://anngineer.github.io/character-creator/",
       },
     },
     {
@@ -174,53 +167,40 @@ export const RESUME_DATA = {
       techStack: [
         "Front End Project",
         "React",
-        "React Router Dom v6",
         "Semantic UI",
         "JSX",
         "JavaScript",
-        "HTML",
-        "CSS/SCSS",
       ],
       description:
         "Resource page designed for categorizing and presenting information for a nonprofit",
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "resource hub",
+        href: "https://anngineer.github.io/resource-hub/",
       },
     },
     {
       title: "Interactive Journal",
       techStack: [
         "Front End Project",
-        "JavaScript",
+        "Audio/Animation",
         "Semantic UI",
-        "RegExp",
-        "Audio",
-        "HTML",
-        "CSS/SCSS",
+        "JavaScript",
       ],
       description:
         "Aesthetic mindfulness-focused journaling or messaging application to record thoughts",
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "interactive journal",
+        href: "https://anngineer.github.io/forest-friend-journal/",
       },
     },
     {
       title: "To Do Dog",
-      techStack: [
-        "Front End Project",
-        "Animated Sprites",
-        "Local Storage",
-        "JavaScript",
-        "HMTL",
-        "CSS/SCSS",
-      ],
+      techStack: ["Front End Project", "Animated Sprites", "JavaScript"],
       description:
         "Animated dog responding to use of to-do list that is saved locally on browser",
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "to do dog",
+        href: "https://anngineer.github.io/to-do-dog/",
       },
     },
     {
@@ -228,17 +208,14 @@ export const RESUME_DATA = {
       techStack: [
         "Front End Project",
         "React",
-        "React Router Dom v6",
         "Semantic UI",
         "JSX",
         "JavaScript",
-        "HTML",
-        "CSS/SCSS",
       ],
       description: "Light and dark themed front end blog template",
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "writing blog",
+        href: "https://anngineer.github.io/writing-blog/",
       },
     },
   ],
