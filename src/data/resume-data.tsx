@@ -20,6 +20,7 @@ export const RESUME_DATA = {
     "Motivated software developer with background in mechanical engineering research. Brings experience in technical writing, accessibility, and proven communication strengths in addition to programming skills.",
   avatarUrl: "https://avatars.githubusercontent.com/u/65789253?v=4",
   personalWebsiteUrl: "https://vercel.com/anngineers-projects/portfolio",
+  personalBlogUrl: "https://www.linkedin.com/in/anngineer/",
   contact: {
     email: "AnngineerDev@gmail.com",
     tel: "",

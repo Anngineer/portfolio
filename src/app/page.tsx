@@ -86,11 +86,12 @@ export default function Page() {
               ) : null}
             </div>
           </div>
-
-          <Avatar className="size-28">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
-            <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
-          </Avatar>
+          <a href={RESUME_DATA.personalBlogUrl}>
+            <Avatar className="size-28">
+              <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
+              <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
+            </Avatar>
+          </a>
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
@@ -118,7 +119,7 @@ export default function Page() {
                   <CardContent className="mt-1 text-gray-800">
                     {education.degree}
                   </CardContent>
-                  <div className="text-sm tabular-nums text-gray-500">
+                  <div className="text-xs tabular-nums text-gray-500">
                     GPA: {education.gpa}
                   </div>
                 </div>
@@ -235,8 +236,8 @@ export default function Page() {
       <CommandMenu
         links={[
           {
-            url: RESUME_DATA.personalWebsiteUrl,
-            title: "Personal Website",
+            url: RESUME_DATA.personalBlogUrl,
+            title: "Personal Blog",
           },
           ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
             url: socialMediaLink.url,
