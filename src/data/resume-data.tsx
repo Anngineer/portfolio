@@ -1,20 +1,11 @@
 import {
   AmbitLogo,
   BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
   ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
   JarockiMeLogo,
-  JojoMobileLogo,
   Minimal,
-  MobileVikingsLogo,
   MonitoLogo,
-  NSNLogo,
   ParabolLogo,
-  TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
@@ -78,7 +69,7 @@ export const RESUME_DATA = {
       degree: "Mechanical Engineering Courses",
       start: "2009",
       end: "2013",
-      description: "Engineering Without Borders",
+      description: "Engineers Without Borders",
       gpa: "3.50",
       courses:
         "Probability and Statistics for Engineering, Engineering & Scientific Computing, Calc 1 & 2, Intro to Electrical and Electronic Circuits, Engineering Mechanics I & II, Physics I & II ",
@@ -101,7 +92,6 @@ export const RESUME_DATA = {
       link: "https://parabol.co",
       badges: [""],
       title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
       start: "2021",
       end: "2024",
       description:
@@ -112,7 +102,7 @@ export const RESUME_DATA = {
       link: "https://parabol.co",
       badges: [""],
       title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
+
       start: "2021",
       end: "2024",
       description:
@@ -120,174 +110,114 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    "Java",
+    "C++",
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "SQL",
+    "JavaScript",
+    "HTML/CSS",
+    "React",
+    "basic Python",
+    "InDesign",
+    "Affinity Designer",
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      title: "Anngineer Blog",
+      techStack: ["Blog", "Educational", "Tutorials"],
+      description:
+        "An educational tech blog about my studies and personal projects",
       link: {
         label: "consultly.com",
         href: "https://consultly.com/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Front End Portfolio",
+      techStack: [
+        "Front End Project",
+        "React",
+        "React Router Dom v5",
+        "Semantic UI",
+        "JSX",
+        "JavaScript",
+        "HTML",
+        "CSS/SCSS",
+      ],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+        "Compilation of my front end projects with details about the process",
       link: {
         label: "monito.dev",
         href: "https://monito.dev/",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Character Creator",
+      techStack: [
+        "Front End Project",
+        "React",
+        "React Router Dom v5",
+        "Axios",
+        "Semantic UI",
+        "JSX",
+        "JavaScript",
+        "HTML",
+        "CSS/SCSS",
+      ],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "Role playing game character builder guide using the D&D 5th Edition API",
+      link: {
+        label: "monito.dev",
+        href: "https://monito.dev/",
+      },
+    },
+    {
+      title: "Resource Page Template",
+      techStack: [
+        "Front End Project",
+        "React",
+        "React Router Dom v6",
+        "Semantic UI",
+        "JSX",
+        "JavaScript",
+        "HTML",
+        "CSS/SCSS",
+      ],
+      description:
+        "Resource page designed for categorizing and presenting information for a nonprofit",
       link: {
         label: "github.com",
         href: "https://jarocki.me/",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Interactive Journal",
+      techStack: ["Front End Project", "Next.js", "Puppeteer"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+        "Mindfulness-focused journaling or messaging application to record thoughts",
       link: {
         label: "useminimal.com",
         href: "https://useminimal.com/",
       },
     },
     {
-      title: "Barepapers",
+      title: "To Do Dog",
       techStack: ["Side Project", "Next.js", "Puppeteer"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "Animated dog responds to usage of to-do list that is saved locally on browser",
       link: {
         label: "barepapers.com",
         href: "https://barepapers.com/",
       },
     },
     {
-      title: "Year progress",
+      title: "Blog Template",
       techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
+      description: "Light and dark themed front end blog template",
       link: {
         label: "getyearprogress.com",
         href: "https://getyearprogress.com/",
       },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;

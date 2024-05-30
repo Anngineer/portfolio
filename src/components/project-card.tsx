@@ -27,7 +27,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
                 className="inline-flex items-center gap-1 hover:underline"
               >
                 {title}{" "}
-                <span className="size-1 rounded-full bg-green-500"></span>
+                {/*<span className="size-1 rounded-full bg-green-500"></span> */}
               </a>
             ) : (
               title
@@ -42,7 +42,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
         </div>
       </CardHeader>
       <CardContent className="mt-auto flex">
-        <div className="mt-2 flex flex-wrap gap-1">
+        <div className="mt-4 flex flex-wrap gap-1">
           {tags.map((tag) => (
             <Badge
               className="px-1 py-0 text-[10px]"

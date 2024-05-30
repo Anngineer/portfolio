@@ -123,12 +123,12 @@ export default function Page() {
                   </div>
                 </div>
 
-                <CardContent className="mt-1 text-xs">
+                <CardContent className="mt-2 text-xs">
                   <span className="text-gray-600">Relevant Coursework:</span>{" "}
                   {education.courses}
                 </CardContent>
-                <CardContent className="mt-0 text-xs">
-                  <span className="text-gray-600">Extracuricular:</span>{" "}
+                <CardContent className="mt-1 text-xs">
+                  <span className="text-gray-600">Extracurricular:</span>{" "}
                   {education.description}
                 </CardContent>
               </Card>
@@ -183,6 +183,7 @@ export default function Page() {
           {RESUME_DATA.published.map((published) => {
             return (
               <Card key={published.name}>
+                {/* 
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
@@ -191,10 +192,13 @@ export default function Page() {
                       </a>
                     </h3>
                   </div>
-                </CardHeader>
-                <CardContent className="mt-2 text-xs">
-                  {published.authors}, <i>{published.name}</i>,{" "}
-                  {published.journal}, DOI: {published.doi}.
+                </CardHeader>*/}
+
+                <CardContent className="mt-0 text-xs">
+                  <a className="hover:underline" href={published.link}>
+                    {published.authors}, <i>{published.name}</i>,{" "}
+                    {published.journal}, DOI: {published.doi}.
+                  </a>
                 </CardContent>
               </Card>
             );
