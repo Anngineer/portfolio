@@ -138,12 +138,12 @@ export default function Page() {
                   </div>
                 </div>
 
-                <CardContent className="mt-2 text-xs">
-                  <span className="text-gray-600">Relevant Coursework:</span>{" "}
+                <CardContent className="mt-1 text-xs">
+                  <span className="text-gray-500">Relevant Coursework:</span>{" "}
                   {education.courses}
                 </CardContent>
                 <CardContent className="mt-1 text-xs">
-                  <span className="text-gray-600">Extracurricular:</span>{" "}
+                  {/* <span className="text-gray-600">Extracurricular:</span>{" "} */}
                   {education.description}
                 </CardContent>
               </Card>
