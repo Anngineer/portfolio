@@ -36,11 +36,7 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/anngineer/",
         icon: LinkedInIcon,
       },
-      {
-        name: "X",
-        url: "",
-        icon: XIcon,
-      },
+      // {name: "X", url: "", icon: XIcon, },
     ],
   },
   education: [
