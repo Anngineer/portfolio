@@ -7,6 +7,7 @@ import {
   MonitoLogo,
   ParabolLogo,
   YearProgressLogo,
+  TastyCloudLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 

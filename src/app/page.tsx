@@ -72,6 +72,20 @@ export default function Page() {
                   </a>
                 </Button>
               ))}
+              <Button
+                // key={social.name}
+                className="size-8"
+                variant="outline"
+                size="icon"
+                asChild
+              >
+                <a
+                  href={RESUME_DATA.personalBlogUrl}
+                  className="text-xl font-bold"
+                >
+                  B
+                </a>
+              </Button>
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
               {RESUME_DATA.contact.email ? (
