@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       description: "Engineers Without Borders",
       gpa: "3.50",
       courses:
-        "Probability & Statistics for Engineering, Engineering & Scientific Computing, Calc 1& 2, Intro to Electrical & Electronic Circuits, Engineering Mechanics I & II, Physics I & II ",
+        "Probability & Statistics for Engineering, Engineering & Scientific Computing, Calc 1 & 2, Intro to Electrical & Electronic Circuits, Engineering Mechanics I & II, Physics I & II ",
     },
   ],
   published: [
