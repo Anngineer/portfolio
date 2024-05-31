@@ -21,7 +21,7 @@ export const RESUME_DATA = {
     "A software developer with background in mechanical engineering research, I am enthusiastic about interdisciplinary design and problem solving.  I bring experience in technical writing, accessibility, and I thoroughly enjoy working with a team where I can help others achieve their goals.",
   avatarUrl: "https://avatars.githubusercontent.com/u/65789253?v=4",
   personalWebsiteUrl: "https://vercel.com/anngineers-projects/portfolio",
-  personalBlogUrl: "https://www.linkedin.com/in/anngineer/",
+  personalBlogUrl: "https://anngineer.substack.com/",
   contact: {
     email: "AnngineerDev@gmail.com",
     tel: "",
