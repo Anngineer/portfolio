@@ -260,7 +260,8 @@ export default function Page() {
             })}
           </div>
         </Section>
-
+        {/* 
+//Hidden blog section until I start posting articles
         <Section>
           <h2 className="text-xl font-bold">Recent Blog Posts</h2>
           {RESUME_DATA.blog.map((blog) => {
@@ -272,27 +273,11 @@ export default function Page() {
                       <a className="hover:underline" href={blog.link}>
                         {blog.title}
                       </a>
-
-                      {/* <span className="inline-flex gap-x-1">
-                        {blog.tag.map((tag) => (
-                          <Badge
-                            variant="secondary"
-                            className="align-middle text-xs"
-                            key={tag}
-                          >
-                            {tag}
-                          </Badge>
-                        ))}
-                      </span> */}
                     </h3>
                     <div className="text-xs tabular-nums text-gray-500">
                       Date: {blog.date}
                     </div>
                   </div>
-
-                  {/* <h4 className="font-mono text-sm leading-none">
-                    {blog.title}
-                  </h4> */}
                 </CardHeader>
                 <CardContent className="mt-2 text-sm text-gray-800">
                   {blog.description}
@@ -314,6 +299,7 @@ export default function Page() {
             );
           })}
         </Section>
+*/}
       </section>
 
       <CommandMenu
