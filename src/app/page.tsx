@@ -150,6 +150,47 @@ export default function Page() {
             );
           })}
         </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">Published Research</h2>
+          {RESUME_DATA.published.map((published) => {
+            return (
+              <Card key={published.name}>
+                {/* 
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                      <a className="hover:underline" href={published.link}>
+                        {published.name}
+                      </a>
+                    </h3>
+                  </div>
+                </CardHeader>*/}
+
+                <CardContent className="mt-0 text-xs">
+                  <a className="hover:underline" href={published.link}>
+                    {published.authors}, <i>{published.name}</i>,{" "}
+                    {published.journal}, DOI: {published.doi}.
+                  </a>
+                </CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Work Experience</h2>
+          <div className="text-xs tabular-nums text-gray-500">
+            View my work history on{" "}
+            <a
+              className="underline"
+              href={"https://www.linkedin.com/in/anngineer/"}
+            >
+              LinkedIn
+            </a>
+            .
+          </div>
+        </Section>
+
         {/* 
         // Hidden work section
         <Section>
@@ -193,32 +234,6 @@ export default function Page() {
           })}
         </Section>
         */}
-        <Section>
-          <h2 className="text-xl font-bold">Published Research</h2>
-          {RESUME_DATA.published.map((published) => {
-            return (
-              <Card key={published.name}>
-                {/* 
-                <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={published.link}>
-                        {published.name}
-                      </a>
-                    </h3>
-                  </div>
-                </CardHeader>*/}
-
-                <CardContent className="mt-0 text-xs">
-                  <a className="hover:underline" href={published.link}>
-                    {published.authors}, <i>{published.name}</i>,{" "}
-                    {published.journal}, DOI: {published.doi}.
-                  </a>
-                </CardContent>
-              </Card>
-            );
-          })}
-        </Section>
 
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
