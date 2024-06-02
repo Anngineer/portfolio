@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
+import Head from "next/head";
 
 import "./globals.css";
 import React from "react";
@@ -23,7 +24,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
-      <body>{children}</body>
+      <body>
+        <Head>
+          <link rel="icon" href="/favicon.ico" sizes="any" />
+        </Head>
+        {children}
+      </body>
       <Analytics />
     </html>
   );
