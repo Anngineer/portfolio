@@ -18,7 +18,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Pennsylvania",
   about: "Software Developer",
   summary:
-    "A software developer with background in mechanical engineering research, I am enthusiastic about interdisciplinary design and problem solving.  I bring experience in technical writing, accessibility, and I thoroughly enjoy working with a team where I can help others achieve their goals.",
+    "I’m a software developer with a deep appreciation for applied mathematics and computational problem-solving. With experience in mechanical engineering research and technical writing, I enjoy breaking down complex ideas and helping others learn.",
   avatarUrl: "https://avatars.githubusercontent.com/u/65789253?v=4",
   personalWebsiteUrl: "https://vercel.com/anngineers-projects/portfolio",
   personalBlogUrl: "https://anngineer.substack.com/",
@@ -44,12 +44,12 @@ export const RESUME_DATA = {
       school: "Community College of Allegheny County",
       degree: "Associate's Degree of Computer Information Systems",
       start: "2023",
-      end: "Expected Dec 2024",
+      end: "Expected March 2025",
       description:
         "Honors Student, Phi Theta Kappa Honor Society, Mu Alpha Theta Math Honor Society, GetWITit Women in Technology",
       gpa: "4.0",
       courses:
-        "Data Structures & Algorithms C++, Database Systems, Object Oriented Programming 1 Java, Intro to Programming Java, Information Technology Fundamentals",
+        "Data Structures & Algorithms C++, Database Systems, Object Oriented Programming 1 Java, Intro to Programming Java, Computer Organization, Information Technology Fundamentals",
     },
     {
       school: "Youngstown State University",
@@ -136,7 +136,6 @@ export const RESUME_DATA = {
   skills: [
     "Java",
     "C++",
-    "JavaScript",
     "SQL",
     "JavaScript",
     "HTML/CSS",
