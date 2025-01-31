@@ -23,7 +23,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://vercel.com/anngineers-projects/portfolio",
   personalBlogUrl: "https://anngineer.substack.com/",
   contact: {
-    email: "AnngineerDev@gmail.com",
+   // email: "AnngineerDev@gmail.com",
     tel: "",
     social: [
       {
@@ -149,10 +149,10 @@ export const RESUME_DATA = {
       title: "Anngineer Blog",
       techStack: ["Blog", "Educational", "Tutorials"],
       description:
-        "An educational tech blog about my studies and personal projects",
+        "An educational tech substack blog about my studies and personal projects",
       link: {
-        label: "anngineerblog.com",
-        href: "https://anngineer.github.io/writing-blog/",
+        label: "substack blog",
+        href: "https://anngineer.substack.com/",
       },
     },
     {
