@@ -6,11 +6,11 @@ Minimalist CV portfolio with my education history, coding projects, and links to
 
 Template forked from [Bartosz Jarocki's Github] (https://github.com/BartoszJarocki/cv.git).
 
-Uses Next.js 14, React, Typescript, Shadcn/ui, TailwindCss and is deployed on Vercel.
+Uses Next.js 14, React, Typescript, Shadcn/ui, TailwindCSS and is deployed on Vercel.
 
-## Contact
+## Follow
 
-Please feel free to contact me at [LinkedIn](www.linkedin.com/in/anngineer) in regard to my work or future projects.
+Please feel free to follow me at [GitHub](https://github.com/Anngineer) in regard to my work or future projects.
 
 ## License
 
