@@ -23,8 +23,8 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://vercel.com/anngineers-projects/portfolio",
   personalBlogUrl: "https://anngineer.substack.com/",
   contact: {
-   // email: "AnngineerDev@gmail.com",
     tel: "",
+    email: "",
     social: [
       {
         name: "GitHub",
