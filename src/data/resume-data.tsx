@@ -9,7 +9,7 @@ import {
   YearProgressLogo,
   TastyCloudLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon, BlogIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Ann Bridge",
@@ -26,6 +26,7 @@ export const RESUME_DATA = {
     tel: "",
     email: "",
     social: [
+   
       {
         name: "GitHub",
         url: "https://github.com/Anngineer",
@@ -35,6 +36,11 @@ export const RESUME_DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/anngineer/",
         icon: LinkedInIcon,
+      },
+       {
+        name: "Blog",
+        url: "https://anngineer.substack.com/",
+        icon: BlogIcon,
       },
       // {name: "X", url: "", icon: XIcon, },
     ],
