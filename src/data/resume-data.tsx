@@ -44,7 +44,7 @@ export const RESUME_DATA = {
       school: "Community College of Allegheny County",
       degree: "Associate's Degree of Computer Information Systems",
       start: "2023",
-      end: "Expected March 2025",
+      end: "Expected May 2025",
       description:
         "Honors Student, Phi Theta Kappa Honor Society, Mu Alpha Theta Math Honor Society, GetWITit Women in Technology",
       gpa: "4.0",
