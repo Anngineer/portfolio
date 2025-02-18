@@ -83,7 +83,7 @@ export default function Page() {
                   href={RESUME_DATA.personalBlogUrl}
                   className="text-xl font-bold"
                 >
-                  B
+                  B!
                 </a>
               </Button> */}
             </div>
