@@ -151,7 +151,16 @@ export const RESUME_DATA = {
     "Affinity Designer",
   ],
   projects: [
-    
+    {
+      title: "Anngineer Blog",
+      techStack: ["Blog", "Educational", "Tutorials"],
+      description:
+        "An educational tech substack blog about my studies and personal projects",
+      link: {
+        label: "substack blog",
+        href: "https://anngineer.substack.com/",
+      },
+    },
     {
       title: "Front End Portfolio",
       techStack: [
@@ -166,16 +175,6 @@ export const RESUME_DATA = {
       link: {
         label: "web dev portfolio",
         href: "https://annbridge.com/",
-      },
-    },
-    {
-      title: "Anngineer Blog",
-      techStack: ["Blog", "Educational", "Tutorials"],
-      description:
-        "An educational tech substack blog about my studies and personal projects",
-      link: {
-        label: "substack blog",
-        href: "https://anngineer.substack.com/",
       },
     },
     {
