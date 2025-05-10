@@ -52,7 +52,7 @@ export const RESUME_DATA = {
       start: "2023",
       end: "Expected May 2025",
       description:
-        "Honors Student, Phi Theta Kappa Honor Society, Mu Alpha Theta Math Honor Society, GetWITit Women in Technology",
+        "Mu Alpha Theta Math Honor Society, Phi Theta Kappa Honor Society, GetWITit Women in Technology Volunteer",
       gpa: "4.0",
       courses:
         "Data Structures & Algorithms C++, Database Systems, Object Oriented Programming 1 Java, Intro to Programming Java, Computer Organization, Information Technology Fundamentals",
@@ -151,16 +151,7 @@ export const RESUME_DATA = {
     "Affinity Designer",
   ],
   projects: [
-    {
-      title: "Anngineer Blog",
-      techStack: ["Blog", "Educational", "Tutorials"],
-      description:
-        "An educational tech substack blog about my studies and personal projects",
-      link: {
-        label: "substack blog",
-        href: "https://anngineer.substack.com/",
-      },
-    },
+    
     {
       title: "Front End Portfolio",
       techStack: [
@@ -174,7 +165,17 @@ export const RESUME_DATA = {
         "Compilation of my front end projects with visual previews and details of their design process",
       link: {
         label: "web dev portfolio",
-        href: "https://anngineer.github.io/web-dev-portfolio/",
+        href: "https://annbridge.com/",
+      },
+    },
+    {
+      title: "Anngineer Blog",
+      techStack: ["Blog", "Educational", "Tutorials"],
+      description:
+        "An educational tech substack blog about my studies and personal projects",
+      link: {
+        label: "substack blog",
+        href: "https://anngineer.substack.com/",
       },
     },
     {
@@ -245,7 +246,7 @@ export const RESUME_DATA = {
       ],
       description: "Light and dark themed front end blog template",
       link: {
-        label: "writing blog",
+        label: "writing blog template",
         href: "https://anngineer.github.io/writing-blog/",
       },
     },
