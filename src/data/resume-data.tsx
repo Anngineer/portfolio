@@ -59,7 +59,7 @@ export const RESUME_DATA = {
     },
     {
       school: "Youngstown State University",
-      degree: "Mechanical Engineering Courses",
+      degree: "Mechanical Engineering and Creative Writing coursework",
       start: "2013",
       end: "2016",
       description: "Society of Women Engineers, Literary Arts Association",
@@ -70,7 +70,7 @@ export const RESUME_DATA = {
     },
     {
       school: "Washington University in St. Louis",
-      degree: "Mechanical Engineering Courses",
+      degree: "Mechanical Engineering and Creative Writing coursework",
       start: "2009",
       end: "2013",
       description: "Engineers Without Borders",

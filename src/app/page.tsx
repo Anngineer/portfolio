@@ -139,7 +139,7 @@ export default function Page() {
                 </div>
 
                 <CardContent className="mt-1 text-xs">
-                  <span className="text-gray-500">Relevant Coursework:</span>{" "}
+                  <span className="text-gray-500">Relevant Classes:</span>{" "}
                   {education.courses}
                 </CardContent>
                 <CardContent className="mt-1 text-xs">
